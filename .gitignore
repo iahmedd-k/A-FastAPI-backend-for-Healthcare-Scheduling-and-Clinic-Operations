@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI / ML local files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local vector databases
+chroma/
+chroma_db/
+vector_db/
+vectorstore/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated files
+uploads/
+outputs/
+generated/
+
+# Docker local data
+.docker/
+docker-data/Remove-Item -Recurse -Force .git
